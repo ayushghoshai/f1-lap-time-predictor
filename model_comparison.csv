@@ -1,0 +1,5 @@
+model,feature_set,features,n_train,n_test,RMSE_ms,MAE_ms
+LinearRegression,baseline,"grid, lap",159,449,5335.9,3382.1
+LinearRegression,enhanced,"grid, lap, tire_age",159,449,5024.2,3020.6
+RandomForest,baseline,"grid, lap",159,449,4226.0,2124.0
+RandomForest,enhanced,"grid, lap, tire_age",159,449,4207.5,2059.5

@@ -1,0 +1,80 @@
+{
+  "selected_race_id": 994,
+  "race_name": "Monaco Grand Prix",
+  "race_year": 2018,
+  "race_date": "2018-05-27",
+  "selected_drivers": [
+    1,
+    8,
+    20,
+    807,
+    815,
+    817,
+    822,
+    825
+  ],
+  "cleaning_report": {
+    "raw_laps": 624,
+    "removed_pit_stop_laps": 8,
+    "removed_post_pit_laps": 8,
+    "removed_slow_outlier_laps_train": 0,
+    "removed_slow_outlier_laps_test": 0,
+    "removed_slow_outlier_laps_total": 0,
+    "remaining_laps": 608
+  },
+  "per_driver_train_only_medians_ms": {
+    "1": 77620.0,
+    "8": 77611.5,
+    "20": 77256.0,
+    "807": 79259.0,
+    "815": 79485.0,
+    "817": 77060.5,
+    "822": 78085.0,
+    "825": 79922.0
+  },
+  "train_test_counts_by_driver": [
+    {
+      "driverId": 1,
+      "train_laps": 11,
+      "test_laps": 65
+    },
+    {
+      "driverId": 8,
+      "train_laps": 16,
+      "test_laps": 60
+    },
+    {
+      "driverId": 20,
+      "train_laps": 15,
+      "test_laps": 61
+    },
+    {
+      "driverId": 807,
+      "train_laps": 49,
+      "test_laps": 27
+    },
+    {
+      "driverId": 815,
+      "train_laps": 20,
+      "test_laps": 56
+    },
+    {
+      "driverId": 817,
+      "train_laps": 16,
+      "test_laps": 60
+    },
+    {
+      "driverId": 822,
+      "train_laps": 16,
+      "test_laps": 60
+    },
+    {
+      "driverId": 825,
+      "train_laps": 16,
+      "test_laps": 60
+    }
+  ],
+  "plot_driver": 1,
+  "plot_driver_number": "44",
+  "best_enhanced_model": "RandomForest"
+}
